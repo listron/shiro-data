@@ -29,7 +29,7 @@ public class shiroConfig {
         * */
         Map<String,String> filterMap = new LinkedHashMap<>();
 
-        //授权,未授权跳转到未授权页面,不同的界面有不同的权限，格局数据库的来源，判断当前用户有什么权限，
+        //授权,未授权跳转到未授权页面,不同的界面有不同的权限，根据数据库的来源，判断当前用户有什么权限，
         filterMap.put("/user/add","perms[user:add]");
         filterMap.put("/user/update","perms[user:update]");
 

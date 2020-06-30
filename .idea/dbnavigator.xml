@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="fb2566d0-aca9-411f-b298-f70211d18045">
-        <schema name="mybatis" object-types="constraint, procedure, view, function, index, dataset trigger, table, column" />
+        <schema name="mybatis" object-types="index, constraint, procedure, view, function, table, column, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
@@ -35,9 +35,7 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="fb2566d0-aca9-411f-b298-f70211d18045" object-ref="schemas/mybatis/tables/user" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="fb2566d0-aca9-411f-b298-f70211d18045" />
